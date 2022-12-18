@@ -1,1 +1,3 @@
-# Snake game created using Vite + React TypeScript.
+# Snake game.
+
+## Tech stack - ReactJs, TypeScript, Vite
