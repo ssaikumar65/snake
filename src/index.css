@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Creepster", "Roboto";
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #242424;
+  min-height: 100vh;
+  min-width: 600px;
+  color: lavender;
+  letter-spacing: 3px;
+  overflow-y: hidden;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.snake {
+  font-size: 40px;
+}
+.gameover {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.gameover span {
+  font-size: 30px;
+}
+
+.gameover button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 2px solid lavender;
+  background-color: transparent;
+  color: lavender;
+  font-size: 20px;
+  font-family: "Creepster", "Roboto";
+  letter-spacing: 4px;
+}
+
+.gameover button:hover {
+  cursor: pointer;
+  background-color: lavender;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: lavender;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

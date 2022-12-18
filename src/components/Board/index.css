@@ -1,0 +1,18 @@
+.board {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 2px solid lightcyan;
+  border-radius: 6px;
+}
+.scorediv {
+  width: 100%;
+  height: 100%;
+  color: lavender;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  font-size: 350px;
+  z-index: -1;
+  opacity: 0.05;
+}
